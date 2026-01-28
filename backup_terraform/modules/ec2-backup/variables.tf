@@ -15,7 +15,7 @@ variable "tags" {
 
 variable "backup_role_name" {
   type    = string
-  default = "aws-backup-role"
+  default = "terraform-dev-backup-role"
 }
 
 variable "backup_vault_name" {
