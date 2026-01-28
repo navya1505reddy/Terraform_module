@@ -20,12 +20,12 @@ variable "backup_role_name" {
 
 variable "backup_vault_name" {
   type    = string
-  default = "ec2-backup-vault"
+  default = "terraform-dev-backup-vault"
 }
 
 variable "backup_plan_name" {
   type    = string
-  default = "daily-ec2-backup-plan"
+  default = "terraform-dev-backup-plan"
 }
 
 variable "backup_schedule" {
